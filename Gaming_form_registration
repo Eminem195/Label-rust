@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .event-image {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <title>Gaming Event</title>
+</head>
+<body>
+
+  <header>
+    <h1>Gaming Event 2023</h1>
+    <p><strong>Join us for an exciting gaming experience!</strong></p>
+  </header>
+
+  <main>
+    <img class="event-image" src="https://xxboxnews.blob.core.windows.net/prod/sites/2/2023/05/Xbox-Starfield-Direct-Hero-Image-37faabd65d647fb77b68.jpg" alt="Gaming Event Image">
+    <h2>About the Event</h2>
+    <p>
+        An event poster is a marketing tool designed to attract visitors to an upcoming conference or gathering. 
+        With the right design elements, a poster can increase how many guests attend your event. 
+        Depending on the type of event and your target market, your design can focus on images, or be more text-heavy.
+    </p>
+    
+    <h2>Event Details</h2>
+    <p>Date: January 15-17, 2024</p>
+    <p>Location: Gaming Convention Center</p>
+    
+    <a class="button" href="registration_page.html">Register Now</a>
+  </main>
+
+  <footer>
+    &copy; 2023 Gaming Event. All rights reserved.
+  </footer>
+  
+
+</body>
+</html>
+
